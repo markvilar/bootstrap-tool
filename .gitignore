@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Vim swap files
+*.swp
+*.swa
+*.swo
+*.swap

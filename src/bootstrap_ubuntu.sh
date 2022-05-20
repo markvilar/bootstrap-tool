@@ -91,10 +91,14 @@ apt install -y \
     python3-dev \
     python3-pip \
     python3-setuptools \
+    jq \
     g++-10 \
     clang-12 \
     cppcheck \
-    clang-tidy 
+    clang-tidy \
+    clang-tidy-12 \
+    ccache \
+    moreutils
 
 log_info Now installing secondary programs...
 apt install -y \
