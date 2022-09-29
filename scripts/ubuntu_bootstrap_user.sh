@@ -43,3 +43,6 @@ pip3 install --user \
     conan \
     ninja \
     cmake 
+
+# Install vim plugins
+vim +PluginInstall
