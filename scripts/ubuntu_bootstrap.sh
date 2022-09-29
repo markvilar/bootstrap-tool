@@ -63,14 +63,14 @@ apt install -y \
     tmux \
     mupdf \
     ranger \
-    calcurse 
+    calcurse \
+    gnome-tweaks
 
 log_info \[3\/6\] Now installing main programs \(network and internet\)...
 apt install -y \
     telnet \
     netcat \
     newsboat
-
 
 log_info \[4\/6\] Now installing main programs \(graphics\)...
 apt install -y \
