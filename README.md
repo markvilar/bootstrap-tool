@@ -11,3 +11,11 @@ sh scripts/ubuntu_bootstrap_user.sh
 ```shell
 sudo sh scripts/ubuntu_cuda.sh
 ```
+
+## References
+
+### Ubuntu references
+- https://github.com/lukesmithxyz/voidrice
+
+### Windows references
+- https://github.com/HO-COOH/CPPDevOnWindows#install-clang
