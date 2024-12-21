@@ -53,64 +53,64 @@ log_info \[1\/6\] Now installing main programs \(system basics\)...
 apt install -y \
 	unzip \
 	unrar \
-    nodejs \
-    curl \
+  nodejs \
+  curl \
 	wget 
 
 log_info \[2\/6\] Now installing main programs \(productivity\)...
 apt install -y \
-    vim \
-    tmux \
-    mupdf \
-    ranger \
-    calcurse \
-    gnome-tweaks
+  vim \
+  tmux \
+  mupdf \
+  ranger \
+  calcurse \
+  gnome-tweaks
 
 log_info \[3\/6\] Now installing main programs \(network and internet\)...
 apt install -y \
-    telnet \
-    netcat \
-    newsboat
+  telnet \
+  netcat \
+  newsboat
 
 log_info \[4\/6\] Now installing main programs \(graphics\)...
 apt install -y \
-    feh \
-    imagemagick \
-    scrot \
-    ffmpeg \
-    gimp \
-    vlc
+  feh \
+  imagemagick \
+  scrot \
+  ffmpeg \
+  gimp \
+  vlc
 
 log_info \[5\/6\] Now installing main programs \(audio\)...
 apt install -y \
-    mediainfo 
+  mediainfo 
 
 log_info \[6\/6\] Now installing main programs \(devel\)...
 apt install -y \
-    git \
-    python3-dev \
-    python3-pip \
-    python3-setuptools \
-    jq \
-    g++-10 \
-    clang-12 \
-    cppcheck \
-    clang-tidy \
-    clang-tidy-12 \
-    ccache \
-    moreutils
+  git \
+  python3-dev \
+  python3-pip \
+  python3-setuptools \
+  jq \
+  g++-10 \
+  clang-12 \
+  cppcheck \
+  clang-tidy \
+  clang-tidy-12 \
+  ccache \
+  moreutils
 
 log_info Now installing secondary programs...
 apt install -y \
-    texlive-lang \
-    biber \
-    blender \
-    transmission-cli \
-    screenfetch \
-    projectm-pulseaudio \
-    cmatrix \
-    firefox \
-    qutebrowser \
-    chromium
+  texlive-lang \
+  biber \
+  blender \
+  transmission-cli \
+  screenfetch \
+  projectm-pulseaudio \
+  cmatrix \
+  firefox \
+  qutebrowser \
+  chromium
 
 clear
