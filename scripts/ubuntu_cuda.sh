@@ -34,7 +34,7 @@ fi
 # Step 5: Add the Cuda executable and dynamic library paths to the environmental
 # path variables
 PATH="${CUDA_PATH}/bin:${PATH}"
-LD_LIBRARY_PATH="${CUDA_PATH}/lib64:$LD_LIBRARY_PATH"
+LD_LIBRARY_PATH="${CUDA_PATH}/lib64:${LD_LIBRARY_PATH}"
 
 # Step 6: Optionally, add the paths to bashrc for automatic pathing for every
 # new shell
