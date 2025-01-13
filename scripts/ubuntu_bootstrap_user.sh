@@ -40,6 +40,9 @@ git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.v
 
 # Install development tools through pip
 pip3 install --user \
-    conan \
-    ninja \
-    cmake 
+  conan \
+  ninja \
+  cmake 
+
+# Install vim plugins
+vim +PluginInstall
